@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./fontawesome-free-6.4.2-web/css/all.min.css" />
+</head>
+
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="header_navbar">
+                <ul class="header_navbar_list">
+                    <li class="header_navbar_item">
+                        <i class="fa-solid fa-phone"></i>
+                        +01 23456789
+                    </li>
+                    <li class="header_navbar_item">
+                        <i class="fa-regular fa-envelope"></i>
+                        kalles@domain.com
+                    </li>
+                </ul>
+                <ul class="header_navbar_list">
+                    <li class="header_navbar_item1">Summer sale discount off </li>
+                    <li class="header_navbar_item2"> 50%!</li>
+                    <li class="header_navbar_item3"> Shop Now</li>
+                </ul>
+                <ul class="header_navbar_list">
+                    <li class="header_navbar_item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        Location
+                    </li>
+                    <li class="header_navbar_item">English</li>
+                    <li class="header_navbar_item">
+                        <i class="fa-brands fa-font-awesome"></i>
+                        VND
+                    </li>
+                </ul>
+            </div>
+            <div class="header_navbar1">
+                <img src="anh/anh1.avif" alt="anh ca nhan" />
+                <ul class="header_navbar1_list">
+                    <li class="header_navbar1_item">Demo</li>
+                    <li class="header_navbar1_item">Shop</li>
+                    <li class="header_navbar1_item">Product</li>
+                    <li class="header_navbar1_item">Sale</li>
+                    <li class="header_navbar1_item">Pages</li>
+                    <li class="header_navbar1_item">Lookbook</li>
+                    <li class="header_navbar1_item">Blog</li>
+                    <li class="header_navbar1_item">Buy Theme</li>
+                </ul>
+                <ul class="header_navbar1_list">
+                    <li class="header_navbar1_item">
+                        <i class="fa-brands fa-searchengin"></i>
+                    </li>
+                    <li class="header_navbar1_item">
+                        <i class="fa-regular fa-user"></i>
+                    </li>
+                    <li class="header_navbar1_item">
+                        <i class="fa-regular fa-heart"></i>
+                    </li>
+                    <li class="header_navbar1_item">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </li>
+                </ul>
+            </div>
+            <div class="header_navbar2">
+                <ul class="header_navbar2_list">
+                    <li class="header_navbar2_item">New Arrival</li>
+                    <li class="header_navbar2_item">Decor</li>
+                    <li class="header_navbar2_item">Denim</li>
+                    <li class="header_navbar2_item">Dress</li>
+                    <li class="header_navbar2_item">Hats</li>
+                    <li class="header_navbar2_item">Men</li>
+                    <li class="header_navbar2_item">Sale</li>
+                    <li class="header_navbar2_item">Shoes</li>
+                    <li class="header_navbar2_item">Women</li>
+                </ul>
+            </div>
+            <div class="header_navbar3">
+                <div class="header_navbar3_list">
+                    <img src="anh/anh2.jpg" alt="anh ca nhan" />
+                </div>
+                <h1>Women</h1>
+                <h2>Home > Women</h2>
+            </div>
+        </header>
+        <div class="container">
+            <div class="filter">
+                <div class="item">
+                    <label for="">Color</label>
+                    <select name="color">
+                        <option value="">---</option>
+                        <option value="green">green</option>
+                        <option value="White Cream">White Cream</option>
+                        <option value="Heart Dotted">Heart Dotted</option>
+                        <option value="pink">pink</option>
+                        <option value="cyan">cyan</option>
+                    </select>
+                </div>
+                <div class="item">
+                    <label for="">Name</label>
+                    <input type="text" name="name">
+                </div>
+                <div class="item">
+                    <label for="">Min Price</label>
+                    <input type="text" name="minPrice">
+                </div>
+                <div class="item">
+                    <label for="">Max Price</label>
+                    <input type="text" name="maxPrice">
+                </div>
+                <div class="item submit">
+                    <button>Search</button>
+                </div>
+            </div>
+            <div id="grid_row">
+                <div class="grid_column_2_0">
+                    <div class="home_product_item">
+                        <div class="home_product_item_img"
+                            style="background-image: url(https://demo-kalles-4-1.myshopify.com/cdn/shop/products/20046729-2.jpg?v=1652169256&width=600);">
+                            <div class="quick_view">
+                                <a href="">
+                                    <span class="quick_text">Quick view</span>
+                                    <span class="quick_svg"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                            viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor"
+                                            className="w-6 h-6">
+                                            <path strokeLinecap="round" strokeLinejoin="round"
+                                                d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
+                                            <path strokeLinecap="round" strokeLinejoin="round"
+                                                d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                        </svg>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="buy_amount">
+                                <div class="box">
+                                    <button class="minus_btn"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                            class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6" />
+                                        </svg>
+                                    </button>
+                                    <input type="text" name="amount" id="1" value="0" class="amount">
+                                    <button class="plus_btn"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                            class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
+                                        </svg>
+                                    </button>
+                                </div>
+                                <div class="buy_addtocart">
+                                    <a href="">
+                                        <span class="title">add to...</span>
+                                        <span class="icon"><svg fill="none" stroke="currentColor" stroke-width="1.5"
+                                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                                                aria-hidden="true">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z">
+                                                </path>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <h6 class="home_product_item_name">Tovi Girl With Cat Printed</h6>
+                        <div class="home_product_item_price">
+                            <span class="home_product_item_price_old">365.000đ</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid_column_2_0">
+                    <div class="home_product_item">
+                        <div class="home_product_item_img"
+                            style="background-image: url(https://demo-kalles-4-1.myshopify.com/cdn/shop/products/20045689-1-white.jpg?v=1652169246&width=600);">
+                            <div class="quick_view">
+                                <a href="">
+                                    <span class="quick_text">Quick view</span>
+                                    <span class="quick_svg"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                            viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor"
+                                            className="w-6 h-6">
+                                            <path strokeLinecap="round" strokeLinejoin="round"
+                                                d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
+                                            <path strokeLinecap="round" strokeLinejoin="round"
+                                                d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                        </svg>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="buy_amount">
+                                <div class="box">
+                                    <button class="minus_btn"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                            class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6" />
+                                        </svg>
+                                    </button>
+                                    <input type="text" name="amount" id="2" value="0" class="amount">
+                                    <button class="plus_btn"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                            class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
+                                        </svg>
+                                    </button>
+                                </div>
+                                <div class="buy_addtocart">
+                                    <a href="">
+                                        <span class="title">add to...</span>
+                                        <span class="icon"><svg fill="none" stroke="currentColor" stroke-width="1.5"
+                                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                                                aria-hidden="true">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z">
+                                                </path>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <h6 class="home_product_item_name">Magnhild Organic Cotton</h6>
+                        <div class="home_product_item_price">
+                            <span class="home_product_item_price_old">439.000đ</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid_column_2_0">
+                    <div class="home_product_item">
+                        <div class="home_product_item_img"
+                            style="background-image: url(https://demo-kalles-4-1.myshopify.com/cdn/shop/products/dmist3003966540_q1_2-0.jpg?v=1651800024&width=600);">
+                            <div class="quick_view">
+                                <a href="">
+                                    <span class="quick_text">Quick view</span>
+                                    <span class="quick_svg"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                            viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor"
+                                            className="w-6 h-6">
+                                            <path strokeLinecap="round" strokeLinejoin="round"
+                                                d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
+                                            <path strokeLinecap="round" strokeLinejoin="round"
+                                                d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                        </svg>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="buy_amount">
+                                <div class="box">
+                                    <button class="minus_btn"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                            class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6" />
+                                        </svg>
+                                    </button>
+                                    <input type="text" name="amount" id="3" value="0" class="amount">
+                                    <button class="plus_btn"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                            class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
+                                        </svg>
+                                    </button>
+                                </div>
+                                <div class="buy_addtocart">
+                                    <a href="">
+                                        <span class="title">add to...</span>
+                                        <span class="icon"><svg fill="none" stroke="currentColor" stroke-width="1.5"
+                                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                                                aria-hidden="true">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z">
+                                                </path>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <h6 class="home_product_item_name">Ribbed Stripe Top</h6>
+                        <div class="home_product_item_price">
+                            <span class="home_product_item_price_old">366.000đ</span>
+                        </div>
+                        <div class="home_product_item_sale_1">
+                            <input type="text" value="pre order" />
+                        </div>
+                    </div>
+                </div>
+                <div class="grid_column_2_0">
+                    <div class="home_product_item">
+                        <div class="home_product_item_img"
+                            style="background-image: url(https://demo-kalles-4-1.myshopify.com/cdn/shop/products/20045693-1-greenstripe.jpg?v=1652169211&width=600);">
+                            <div class="quick_view">
+                                <a href="">
+                                    <span class="quick_text">Quick view</span>
+                                    <span class="quick_svg"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                            viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor"
+                                            className="w-6 h-6">
+                                            <path strokeLinecap="round" strokeLinejoin="round"
+                                                d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
+                                            <path strokeLinecap="round" strokeLinejoin="round"
+                                                d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                        </svg>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="buy_amount">
+                                <div class="box">
+                                    <button class="minus_btn"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                            class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6" />
+                                        </svg>
+                                    </button>
+                                    <input type="text" name="amount" id="4" value="0" class="amount">
+                                    <button class="plus_btn"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                            class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
+                                        </svg>
+                                    </button>
+                                </div>
+                                <div class="buy_addtocart">
+                                    <a href="">
+                                        <span class="title">add to...</span>
+                                        <span class="icon"><svg fill="none" stroke="currentColor" stroke-width="1.5"
+                                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                                                aria-hidden="true">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z">
+                                                </path>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <h6 class="home_product_item_name">Striped Long Sleeve Top</h6>
+                        <div class="home_product_item_price">
+                            <span class="home_product_item_price_old">1.097.000đ</span>
+                            <span class="home_product_item_price_current">488.000đ</span>
+                        </div>
+                        <div class="home_product_item_sale">
+                            <input type="text" value="-56%" />
+                        </div>
+                        <div class="color">
+                            <div class="color_green"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid_column_2_0">
+                    <div class="home_product_item">
+                        <div class="home_product_item_img"
+                            style="background-image: url(https://demo-kalles-4-1.myshopify.com/cdn/shop/products/13893318-1-navywhite.jpg?v=1652169173&width=600);">
+                            <div class="quick_view">
+                                <a href="">
+                                    <span class="quick_text">Quick view</span>
+                                    <span class="quick_svg"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                            viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor"
+                                            className="w-6 h-6">
+                                            <path strokeLinecap="round" strokeLinejoin="round"
+                                                d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
+                                            <path strokeLinecap="round" strokeLinejoin="round"
+                                                d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                        </svg>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="buy_amount">
+                                <div class="box">
+                                    <button class="minus_btn"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                            class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6" />
+                                        </svg>
+                                    </button>
+                                    <input type="text" name="amount" id="5" value="0" class="amount">
+                                    <button class="plus_btn"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                            class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
+                                        </svg>
+                                    </button>
+                                </div>
+                                <div class="buy_addtocart">
+                                    <a href="">
+                                        <span class="title">add to...</span>
+                                        <span class="icon"><svg fill="none" stroke="currentColor" stroke-width="1.5"
+                                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                                                aria-hidden="true">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z">
+                                                </path>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <h6 class="home_product_item_name">Boxy Sweatshirt Stripe</h6>
+                        <div class="home_product_item_price">
+                            <span class="home_product_item_price_old">439.000đ</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid_column_2_0">
+                    <div class="home_product_item">
+                        <div class="home_product_item_img"
+                            style="background-image: url(https://demo-kalles-4-1.myshopify.com/cdn/shop/products/famer2052212158_q1_2-1_26f6b1d8-3197-4c2b-9230-2247b4c15689.jpg?v=1652168784&width=600);">
+                            <div class="quick_view">
+                                <a href="">
+                                    <span class="quick_text">Quick view</span>
+                                    <span class="quick_svg"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                            viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor"
+                                            className="w-6 h-6">
+                                            <path strokeLinecap="round" strokeLinejoin="round"
+                                                d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
+                                            <path strokeLinecap="round" strokeLinejoin="round"
+                                                d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                        </svg>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="buy_amount">
+                                <div class="box">
+                                    <button class="minus_btn"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                            class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6" />
+                                        </svg>
+                                    </button>
+                                    <input type="text" name="amount" id="6" value="0" class="amount">
+                                    <button class="plus_btn"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                            class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
+                                        </svg>
+                                    </button>
+                                </div>
+                                <div class="buy_addtocart">
+                                    <a href="">
+                                        <span class="title">add to...</span>
+                                        <span class="icon"><svg fill="none" stroke="currentColor" stroke-width="1.5"
+                                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                                                aria-hidden="true">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z">
+                                                </path>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <h6 class="home_product_item_name">Mercury Tee</h6>
+                        <div class="home_product_item_price">
+                            <span class="home_product_item_price_old">1.657.000đ</span>
+                        </div>
+                        <div class="color">
+                            <div class="color_image1"></div>
+                            <div class="color_image2"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid_column_2_0">
+                    <div class="home_product_item">
+                        <div class="home_product_item_img"
+                            style="background-image: url(https://demo-kalles-4-1.myshopify.com/cdn/shop/products/eberj4183019d5e_q1_2-0_4e036e1e-79fe-4129-958e-9a1a2698ce6a.jpg?v=1652168766&width=800);">
+                            <div class="quick_view">
+                                <a href="">
+                                    <span class="quick_text">Quick view</span>
+                                    <span class="quick_svg"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                            viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor"
+                                            className="w-6 h-6">
+                                            <path strokeLinecap="round" strokeLinejoin="round"
+                                                d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
+                                            <path strokeLinecap="round" strokeLinejoin="round"
+                                                d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                        </svg>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="buy_amount">
+                                <div class="box">
+                                    <button class="minus_btn"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                            class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6" />
+                                        </svg>
+                                    </button>
+                                    <input type="text" name="amount" id="7" value="0" class="amount">
+                                    <button class="plus_btn"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                            class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
+                                        </svg>
+                                    </button>
+                                </div>
+                                <div class="buy_addtocart">
+                                    <a href="">
+                                        <span class="title">add to...</span>
+                                        <span class="icon"><svg fill="none" stroke="currentColor" stroke-width="1.5"
+                                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                                                aria-hidden="true">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z">
+                                                </path>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <h6 class="home_product_item_name">Analogue Resin Strap</h6>
+                        <div class="home_product_item_price">
+                            <span class="home_product_item_price_old">731.000đ</span>
+                        </div>
+                        <div class="home_product_item_sale">
+                            <input type="text" value="New" />
+                        </div>
+                    </div>
+                </div>
+                <div class="grid_column_2_0">
+                    <div class="home_product_item">
+                        <div class="home_product_item_img"
+                            style="background-image: url(https://demo-kalles-4-1.myshopify.com/cdn/shop/products/freep4527415023_q4_2-0_d8aabba7-1a8a-4c2a-b289-8551b6d06bca.jpg?v=1652168708&width=600);">
+                            <div class="quick_view">
+                                <a href="">
+                                    <span class="quick_text">Quick view</span>
+                                    <span class="quick_svg"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                            viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor"
+                                            className="w-6 h-6">
+                                            <path strokeLinecap="round" strokeLinejoin="round"
+                                                d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
+                                            <path strokeLinecap="round" strokeLinejoin="round"
+                                                d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                        </svg>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="buy_amount">
+                                <div class="box">
+                                    <button class="minus_btn"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                            class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6" />
+                                        </svg>
+                                    </button>
+                                    <input type="text" name="amount" id="8" value="0" class="amount">
+                                    <button class="plus_btn"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                            class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
+                                        </svg>
+                                    </button>
+                                </div>
+                                <div class="buy_addtocart">
+                                    <a href="">
+                                        <span class="title">add to...</span>
+                                        <span class="icon"><svg fill="none" stroke="currentColor" stroke-width="1.5"
+                                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                                                aria-hidden="true">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z">
+                                                </path>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <h6 class="home_product_item_name">White Cream Sleeve</h6>
+                        <div class="home_product_item_price">
+                            <span class="home_product_item_price_old">2.437.000đ</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid_column_2_0">
+                    <div class="home_product_item">
+                        <div class="home_product_item_img"
+                            style="background-image: url(https://demo-kalles-4-1.myshopify.com/cdn/shop/products/skinn3060927901_q1_2-0.jpg?v=1651800511&width=700);">
+                            <div class="quick_view">
+                                <a href="">
+                                    <span class="quick_text">Quick view</span>
+                                    <span class="quick_svg"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                            viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor"
+                                            className="w-6 h-6">
+                                            <path strokeLinecap="round" strokeLinejoin="round"
+                                                d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
+                                            <path strokeLinecap="round" strokeLinejoin="round"
+                                                d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                        </svg>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="buy_amount">
+                                <div class="box">
+                                    <button class="minus_btn"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                            class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6" />
+                                        </svg>
+                                    </button>
+                                    <input type="text" name="amount" id="9" value="0" class="amount">
+                                    <button class="plus_btn"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                            class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
+                                        </svg>
+                                    </button>
+                                </div>
+                                <div class="buy_addtocart">
+                                    <a href="">
+                                        <span class="title">add to...</span>
+                                        <span class="icon"><svg fill="none" stroke="currentColor" stroke-width="1.5"
+                                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                                                aria-hidden="true">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z">
+                                                </path>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <h6 class="home_product_item_name">Skin Sweatpans</h6>
+                        <div class="home_product_item_price">
+                            <span class="home_product_item_price_old">1.828.000đ</span>
+                            <span class="home_product_item_price_current">1.097.000</span>
+                        </div>
+                        <div class="home_product_item_sale">
+                            <input type="text" value="-40%" />
+                        </div>
+                        <div class="color">
+                            <div class="color_pink"></div>
+                            <div class="color_cyan"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid_column_2_0">
+                    <div class="home_product_item">
+                        <div class="home_product_item_img"
+                            style="background-image: url(https://demo-kalles-4-1.myshopify.com/cdn/shop/products/8.1.jpg?v=1652080089&width=600);">
+                            <div class="quick_view">
+                                <a href="">
+                                    <span class="quick_text">Quick view</span>
+                                    <span class="quick_svg"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                            viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor"
+                                            className="w-6 h-6">
+                                            <path strokeLinecap="round" strokeLinejoin="round"
+                                                d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
+                                            <path strokeLinecap="round" strokeLinejoin="round"
+                                                d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                        </svg>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="buy_amount">
+                                <div class="box">
+                                    <button class="minus_btn"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                            class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6" />
+                                        </svg>
+                                    </button>
+                                    <input type="text" name="amount" id="10" value="0" class="amount">
+                                    <button class="plus_btn"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                            class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
+                                        </svg>
+                                    </button>
+                                </div>
+                                <div class="buy_addtocart">
+                                    <a href="">
+                                        <span class="title">add to...</span>
+                                        <span class="icon"><svg fill="none" stroke="currentColor" stroke-width="1.5"
+                                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                                                aria-hidden="true">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z">
+                                                </path>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <h6 class="home_product_item_name">Tonal Ombre Leggings</h6>
+                        <div class="home_product_item_price">
+                            <span class="home_product_item_price_old">1.341.000đ</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid_column_2_0">
+                    <div class="home_product_item">
+                        <div class="home_product_item_img"
+                            style="background-image: url(https://demo-kalles-4-1.myshopify.com/cdn/shop/products/7.1.jpg?v=1652080092&width=600);">
+                            <div class="quick_view">
+                                <a href="">
+                                    <span class="quick_text">Quick view</span>
+                                    <span class="quick_svg"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                            viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor"
+                                            className="w-6 h-6">
+                                            <path strokeLinecap="round" strokeLinejoin="round"
+                                                d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
+                                            <path strokeLinecap="round" strokeLinejoin="round"
+                                                d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                        </svg>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="buy_amount">
+                                <div class="box">
+                                    <button class="minus_btn"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                            class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6" />
+                                        </svg>
+                                    </button>
+                                    <input type="text" name="amount" id="11" value="0" class="amount">
+                                    <button class="plus_btn"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                            class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
+                                        </svg>
+                                    </button>
+                                </div>
+                                <div class="buy_addtocart">
+                                    <a href="">
+                                        <span class="title">add to...</span>
+                                        <span class="icon"><svg fill="none" stroke="currentColor" stroke-width="1.5"
+                                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                                                aria-hidden="true">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z">
+                                                </path>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <h6 class="home_product_item_name">Take Me Higher Long Leggings</h6>
+                        <div class="home_product_item_price">
+                            <span class="home_product_item_price_old">610.000đ</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid_column_2_0">
+                    <div class="home_product_item">
+                        <div class="home_product_item_img"
+                            style="background-image: url(https://demo-kalles-4-1.myshopify.com/cdn/shop/products/6.1.jpg?v=1652080096&width=600);">
+                            <div class="quick_view">
+                                <a href="">
+                                    <span class="quick_text">Quick view</span>
+                                    <span class="quick_svg"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                            viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor"
+                                            className="w-6 h-6">
+                                            <path strokeLinecap="round" strokeLinejoin="round"
+                                                d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
+                                            <path strokeLinecap="round" strokeLinejoin="round"
+                                                d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                        </svg>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="buy_amount">
+                                <div class="box">
+                                    <button class="minus_btn"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                            class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6" />
+                                        </svg>
+                                    </button>
+                                    <input type="text" name="amount" id="12" value="" class="amount">
+                                    <button class="plus_btn"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                            class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
+                                        </svg>
+                                    </button>
+                                </div>
+                                <div class="buy_addtocart">
+                                    <a href="">
+                                        <span class="title">add to...</span>
+                                        <span class="icon"><svg fill="none" stroke="currentColor" stroke-width="1.5"
+                                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                                                aria-hidden="true">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z">
+                                                </path>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <h6 class="home_product_item_name">Stratus Ultra High Leggings</h6>
+                        <div class="home_product_item_price">
+                            <span class="home_product_item_price_old">853.000đ</span>
+                        </div>
+                    </div>
+                </div>
+</body>
+
+</html>
+</div>
+</div>
+</div>
+<div class="hover_link">
+    <a href="#">1</a>
+    <a href="#">2</a>
+    <a href="#">3</a>
+    <a href="#">4</a>
+    <a href="#">Next</a>
+</div>
+</div>
+<footer class="footer">
+    <div class="grid_footer">
+        <div id="grid_row">
+            <div class="grid_column_2_4">
+                <div class="footer_img">
+                    <img src="anh/anh1.avif" alt="anh ca nhan" />
+                </div>
+                <ul class="footer_list">
+                    <li class="footer_list_item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        184 Main Rd E, St Albans VIC 3021, Australia
+                    </li>
+                    <li class="footer_list_item">
+                        <i class="fa-regular fa-envelope"></i>
+                        contact@company.com
+                    </li>
+                    <li class="footer_list_item">
+                        <i class="fa-solid fa-phone"></i>
+                        +001 2233 456
+                    </li>
+                    <li class="footer_list_item">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-x-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-brands fa-pinterest-p"></i>
+                    </li>
+                </ul>
+            </div>
+            <div class="grid_column_2_4">
+                <h3 class="footer_heading">Categories</h3>
+                <ul class="footer_list">
+                    <li class="footer_list_item">Men</li>
+                    <li class="footer_list_item">Women</li>
+                    <li class="footer_list_item">Accessories</li>
+                    <li class="footer_list_item">Shoes</li>
+                    <li class="footer_list_item">Watch</li>
+                    <li class="footer_list_item">Dress</li>
+                </ul>
+            </div>
+            <div class="grid_column_2_4">
+                <h3 class="footer_heading">Infomation</h3>
+                <ul class="footer_list">
+                    <li class="footer_list_item">About us</li>
+                    <li class="footer_list_item">Contact us</li>
+                    <li class="footer_list_item">Terms & Conditions</li>
+                    <li class="footer_list_item">Returns & Exchanges</li>
+                    <li class="footer_list_item">Shipping & Delivery</li>
+                    <li class="footer_list_item">Privacy Policy</li>
+                </ul>
+            </div>
+            <div class="grid_column_2_4">
+                <h3 class="footer_heading">Useful links</h3>
+                <ul class="footer_list">
+                    <li class="footer_list_item">Latest News</li>
+                    <li class="footer_list_item">My Account</li>
+                    <li class="footer_list_item">Size Guide</li>
+                    <li class="footer_list_item">FAQs</li>
+                    <li class="footer_list_item">FAQs 2</li>
+                </ul>
+            </div>
+            <div class="grid_column_2_4">
+                <h3 class="footer_heading">Newsletter Signup</h3>
+                <ul class="footer_list">
+                    <li class="footer_list_item">Subscribe to our newsletter and get 10% off your first purchase
+                    </li>
+                    <li class="footer_list_item">
+                        <div class="footer_list_item_tag">
+                            <input class="footer_list_item_email" type="email" name="contact email"
+                                placeholder="Your email address" value="" required="required">
+                            <button class="footer_list_item_submit" type="submit" data-agreemail-btn="" type="submit">
+                                <a href="#" class="footer_list_item_text">Subcribe</a>
+                            </button>
+                        </div>
+                    </li>
+                    <li class="footer_list_item">
+                        <img src="anh/icon-pay-7-1.png" alt="anh ca nhan" />
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</div>
+<script src="main.js"></script>
+</body>
+
+</html>
